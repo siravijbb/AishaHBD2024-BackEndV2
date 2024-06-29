@@ -50,6 +50,8 @@ export const actions: Actions = {
 		try{
 		const update = await db.wishes.update(
 			{
+				// @ts-ignore
+
 				where: { id: id, },
 				data: {
 					approved: true
@@ -102,6 +104,8 @@ export const actions: Actions = {
 		try{
 			const update = await db.wishes.update(
 				{
+					// @ts-ignore
+
 					where: { id: id, },
 					data: {
 						approved: false
