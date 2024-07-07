@@ -30,6 +30,8 @@ export const actions: Actions = {
 					id: true,
 					name: true,
 					comment: true,
+					approved: true,
+
 				}});
 
 
@@ -68,6 +70,8 @@ export const actions: Actions = {
 				id: true,
 				name: true,
 				comment: true,
+				approved: true,
+
 			}})
 
 		return {
@@ -85,6 +89,8 @@ export const actions: Actions = {
 					id: true,
 					name: true,
 					comment: true,
+					approved: true,
+
 				}})
 
 
@@ -122,6 +128,8 @@ export const actions: Actions = {
 					id: true,
 					name: true,
 					comment: true,
+					approved: true,
+
 				}})
 
 			return {
@@ -139,6 +147,8 @@ export const actions: Actions = {
 					id: true,
 					name: true,
 					comment: true,
+					approved: true,
+
 				}})
 
 
